@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+h1{
+    text-align: center;
+}
+.card{
+    margin:0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0px rgba(0,0,0,0.4);
+    transition: 0.3s;
+    font-size: 0px;
+}
+.card:hover{
+    box-shadow: 0 18px 36px 0px rgba(0,0,0,0.2);
+}
+.cal-head #result{
+    width: 335px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 2px;
+    border: none;
+}
+#result:focus{
+    outline: none;
+}
+.btn{
+    color: white;
+    width: 87px;
+    height: 70px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1f2326;
+    border: 1px solid white;
+
+
+}
+.btn:focus{
+    outline: none;
+}
+.btn-style{
+    background-color:rgb(0, 255, 42);
+}
+
+.btn:hover{
+    background-color: salmon;
+
+}
